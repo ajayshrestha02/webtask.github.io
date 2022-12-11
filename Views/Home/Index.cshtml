@@ -1,0 +1,367 @@
+﻿@{
+	ViewData["Title"] = "EVJ";
+	Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>@(ViewData["Title"])</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<script type="text/javascript">
+		function openside() {
+			document.getElementById('demo').style.width = '80%';
+		}
+		function sideclose() {
+			document.getElementById('demo').style.width = '0px';
+		}
+		// Show the first tab by default
+
+
+	</script>
+	<style>
+		h4.success {
+			margin: 10px;
+			padding: 10px;
+			/*border: 1px solid green;*/
+			color: green;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container-fluid main p-0 m-0">
+			<div class="container">
+				<div class="main-header">
+					<div class="log">
+						<a href="">
+							<div>
+								<img src="img/EV-logo2-1.png" width="100%">
+							</div>
+							<p class="logo-content">見る力・話す力・スキル評価のスペシャリスト</p>
+						</a>
+					</div>
+					<div class="lang">
+						<h4>株式会社エグゼクティブボイスジャパン</h4>
+					</div>
+				</div>
+				<div class="side" id="demo">
+					<span class="closebtn" onclick="sideclose()">&times</span>
+					<a href="" style="margin-top: 50px;"><img src="img/EVj-logo2-1.jpg" width="70%"></a>
+					<a href="#tabs-conttet" class="perception">Perception</a>
+					<a href="#tabs-conttet" class="communication">Communication</a>
+					<a href="#tabs-conttet" class="assessment">Assessment</a>
+					<a href="#tabs-conttet" class="art">Art</a>
+					<a href="#blg" class="blog">Blog</a>
+					<a href="#contactid" class="contact">Contact Us</a>
+				</div>
+				<span class="btnn" style="cursor: pointer; font-size: 20px; color: #fff;"
+					  onclick="openside()">&#9776;</span>
+			</div>
+		</div>
+	</header>
+	<section class="tabing-sec">
+		<div class="container">
+			<div class="tabs">
+				<ul class="tabs-nav">
+					<li>
+						<a href="#tab-1" id="perception">
+							<div class="img-tab">
+								<img src="img/2.png">
+							</div>
+							<div class="tab-title">
+								<span>Perception</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#tab-2" id="communication">
+							<div class="img-tab">
+								<img src="img/1.png">
+							</div>
+							<div class="tab-title">
+								<span>Communication</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#tab-3" id="assessment">
+							<div class="img-tab">
+								<img src="img/3.png">
+							</div>
+							<div class="tab-title">
+								<span>Assessment</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#tab-4" id="art">
+							<div class="img-tab">
+								<img src="img/5.png">
+							</div>
+							<div class="tab-title">
+								<span>Art</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div class="tabs-stage" id="tabs-conttet">
+					<div id="tab-1" class="alltab">
+						<div class="main-tabb-content">
+							<div class="left-content" id="perception">
+								<img src="img/p-001-1.jpg">
+							</div>
+							<div class="right-content">
+								<h5>不透明な時代に不可欠なスキル</h5>
+								<div class="tab-dis">
+									<p>「何を見て、どう解釈するのか」という知覚は、プロジェクトから、データ分析、マネジメントなどまでを決定づけています。特にスピーディに変化する不透明な現代社会では、ありのままを観察することの価値が格段高くなります。にもかかわらず、見かたを学習する機会はほとんどありません。</p>
+									<p>当社では、アートを主なツールとして、知覚・思考・コミュニケーションを一気に磨くユニークなトレーニングを企業・大学・病院ご提供しております。</p>
+									<p>詳しくは、<a href="https://davinci-inst.org/">ダヴィンチ研究所サイト</a>をご覧ください</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="tab-2" class="alltab">
+						<div class="main-tabb-content">
+							<div class="left-content" id="communication">
+								<img src="img/image-112-1.jpg">
+							</div>
+							<div class="right-content">
+								<h5>英語ハイステークスプレゼンテーションを極める</h5>
+								<div class="tab-dis">
+									<p>べンチャーキャピタルに向けたピッチから、メディアインタビュー、ハイステークスプレゼンテーションする機会が飛躍的に増えました。イチか、バチかの機会のために準備が必要ですが、その特殊なコーチングには、豊かな経験・深い専門性・輝かしい実績が不可欠です</p>
+									<p>当社では、この分野専門のコーチ陣が、言語・内容・文化・スピーカーの強み・ボディーランゲージなど評価・指導しながら、ベストなスピーチを最短で完成させていきます。</p>
+									<p>詳しくは、<a href="http://www.executive-voice.com">エグゼクティブボイスサイト</a>をご覧ください。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="tab-3" class="alltab">
+						<div class="main-tabb-content">
+							<div class="left-content" id="assessment">
+								<img src="img/ecap-jp1-1.jpg">
+							</div>
+							<div class="right-content">
+								<h5>世界一精密だから進化する</h5>
+								<div class="tab-dis">
+									<p>世界一正確なコミュニケーションアセスメントをご提供しています。275項目以上について英語コミュニケーション力を最も信頼性が高い方法（ハイブリット採点法）で採点します。</p>
+									<p>真にコミュニケーションが上手なビジネスプロフェッショナルを基準としており、ノンネイティブ、ネイティブを問わずお受けいただけます。自分の長所・短所が詳細に分かるので、アセスメントを受けただけでも弱みを矯正していただけるテストです。</p>
+									<p>詳しくは、<a href="http://www.e-cap.net">E-CAPサイト</a>をご覧ください</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="tab-4" class="alltab">
+						<div class="main-tabb-content">
+							<div class="left-content" id="art">
+								<img src="img/davinci1-1.jpg">
+							</div>
+							<div class="right-content">
+								<h5>アートプロジェクトで境界を越える</h5>
+								<div class="tab-dis">
+									<p>組織や境界を越えた文化的プロジェクトで、私たちの専門性を発揮しております。</p>
+									<p>イノベイティブな戦術で、アートへ新しいファン層を構築する実績をアートコンサルティング（美術展企画・欧米美術館との折衷・美術コレクションのご相談など）を通じて積んでまいりました。特に欧米の美術館・オークションハウス・ギャラリー・コレクターに精通しております。</p>
+									<p>また、３Dでの建築物復元や空間デザインも行います。お気軽にご相談ください。</p>
+									<p>空間デザインサンプルは、<a href="https://davinci-inst.org/">ダヴィンチの５つの部屋</a>をご覧ください</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="contact-form" id="contactid">
+		<div class="container-fluid">
+			<div class="container">
+				<h2 class="contact-title">CONTACT US</h2>
+				<div class="contact-form-main">
+					<div class="contact-left">
+						<h5>Contact Information</h5>
+						<p>弊社チームが営業日２日以内にお返事いたします。</p>
+						<div class="contact-info">
+							<ul>
+								<li>
+									<span><i class="fa-solid fa-phone"></i></span>
+									<a href="">: +81 50 3561 1770</a>
+								</li>
+								<li>
+									<span><i class="fa-solid fa-envelope"></i></span>
+									<a href="">contact@executive-voice.com</a>
+								</li>
+								<li>
+									<span><i class="fa-solid fa-location-dot"></i></span>
+									<a href="">〒104-0061 東京都中央区銀座1-12-14 N&Eビル７階</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="contact-right">
+						<form id="form" class="form">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<input type="text" class="form-control" id="inputName" placeholder="Name">
+									<span class="nameerror" style="color: red;"></span>
+								</div>
+								<div class="form-group col-md-6">
+									<input type="text" class="form-control" id="inputOrganization" placeholder="Organization">
+									<span class="orgerror" style="color: red;"></span>
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+								<span class="emailerror" style="color: red;"></span>
+							</div>
+							<div class="form-group">
+								<textarea placeholder="Comments" class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+								<span class="commenterror" style="color: red;"></span>
+							</div>
+							<button type="submit" class="btn submit0btn">Submit</button>
+						</form>
+
+						<h4 class="success d-none">Thank you for your message!</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog-sec" id="blg">
+		<div class="container-fluid">
+			<div class="container">
+				<h2 class="contact-title">BLOG</h2>
+				<div class="inner-wrapper">
+					<div class="card">
+						<div class="inner-card">
+							<div class="img-wrapper">
+								<img src="img/Picture1-1.png" class="blog-img" alt="">
+							</div>
+							<div class="content">
+								<span class="top-txt">LATEST</span>
+								<h5>奇抜すぎる『洗礼者ヨハネ』</h5>
+								<span class="date-time-blog"><i class="fa-regular fa-calendar"></i>November 5, 2022</span>
+								<p>この絵については、暗くて見えないという印象をお持ちだった方も多いのではないでしょうか。 ご心配には及びません。2016年...</p>
+								<a target="_blank" class="view-btn" href="https://davinci-inst.org/%e5%a5%87%e6%8a%9c%e3%81%99%e3%81%8e%e3%82%8b%e3%80%8e%e6%b4%97%e7%a4%bc%e8%80%85%e3%83%a8%e3%83%8f%e3%83%8d%e3%80%8f/">続きを読む </a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="inner-card">
+							<div class="img-wrapper">
+								<img src="img/color.png" class="blog-img" alt="">
+							</div>
+							<div class="content">
+								<span class="top-txt">LATEST</span>
+								<h5>センスを磨く―まずは「色」から</h5>
+								<span class="date-time-blog"><i class="fa-regular fa-calendar"></i>November 5, 2022</span>
+								<p>「スキル」は磨けるけれども、「センス」は磨けないと言う方もいらっしゃいます。ダヴィンチ研究所ですが、「センスも全然鍛えられる...</p>
+								<a class="view-btn" target="_blank" href="https://davinci-inst.org/%e3%82%bb%e3%83%b3%e3%82%b9%e3%82%92%e7%a3%a8%e3%81%8f%e2%80%95%e3%81%be%e3%81%9a%e3%81%af%e3%80%8c%e8%89%b2%e3%80%8d%e3%81%8b%e3%82%89/">続きを読む </a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="inner-card">
+							<div class="img-wrapper">
+								<img src="img/US-UK-flag-pixabay-e1662189387775.png" class="blog-img" alt="">
+							</div>
+							<div class="content">
+								<span class="top-txt">LATEST</span>
+								<h5>イギリス人エリートのコミュニケーシ...</h5>
+								<span class="date-time-blog"><i class="fa-regular fa-calendar"></i>November 5, 2022</span>
+								<p>アメリカとは逆？ 欧米という言葉でアメリカとイギリスをまとめてしまいがちですが、言うまでもなくまったく異なる文化...</p>
+								<a class="view-btn" target="_blank" href="https://davinci-inst.org/%e3%82%a4%e3%82%ae%e3%83%aa%e3%82%b9%e4%ba%ba%e3%82%a8%e3%83%aa%e3%83%bc%e3%83%88%e3%81%ae%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e8%a1%93/">続きを読む </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="container-fluid bg-b">
+			<div class="container">
+				<div class="social-footer">
+					<span><i class="fa-brands fa-twitter"></i></span>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bottom-footer">
+			<div class="container">
+				<div class="social-footer">
+					<span>© The Executive Voice, LLC</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script>
+
+
+		$(document).ready(function () {
+			$(document).on("click", "button.btn.submit0btn", function () {
+				event.preventDefault();
+
+				var inputName = $('input#inputName').val()
+				if (inputName == '') {
+					$('span.nameerror').text('Please enter your name');
+				}
+				else {
+					$('span.nameerror').text('');
+				}
+				var inputOrganization = $('input#inputOrganization').val()
+				if (inputOrganization == '') {
+					$('span.orgerror').text('Please enter your organization name');
+				}
+				else {
+					$('span.orgerror').text('');
+				}
+				var inputEmail = $('input#inputEmail4').val()
+				if (inputEmail == '') {
+					$('span.emailerror').text('Please enter your email');
+				}
+				else {
+					  var re = /\S+@@\S+\.\S+/;
+					if (re.test(inputEmail)) {
+						$('span.emailerror').text('');
+					  }
+					  else
+					  {
+						  $('span.emailerror').text('Please enter the valid email');
+					  }
+				}
+				var comments = $('textarea#exampleFormControlTextarea1').val()
+				if (comments == '') {
+					$('span.commenterror').text('Please enter your comments');
+				}
+				else {
+					$('span.commenterror').text('');
+				}
+
+				if (inputName != '' && inputOrganization != '' && inputEmail != '' && comments != '') {
+					jQuery.ajax({
+
+						dataType: "json",
+						type: "post",
+						data: { name: inputName, organization: inputOrganization, email: inputEmail, comment: comments},
+						url: '/home/sendemail',
+						success: function (data) {
+							jQuery("#form")[0].reset();
+							$('.success').removeClass("d-none");
+							$('.form').addClass("d-none")
+						}
+
+					});
+
+				}
+
+			});
+		});
+	</script>
+</body>
+</html>
