@@ -14,8 +14,8 @@ namespace EVJ.Controllers
         private readonly IEmailSender _emailSender;
         public HomeController(ILogger<HomeController> logger, IEmailSender emailSender)
         {
-            _ILogger = logger;
-			_IEmailSender=emailSender;
+            _logger = logger;
+			_emailSender=emailSender;
 
 		}
 
