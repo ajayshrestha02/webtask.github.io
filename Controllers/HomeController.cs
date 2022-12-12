@@ -4,6 +4,7 @@ using EVJ.Infrastructure.Models;
 using EVJ.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Web;
 
 namespace EVJ.Controllers
 {
@@ -42,7 +43,7 @@ namespace EVJ.Controllers
 			msg +="<span>Name</span>";
 			msg +="</td>";
 			msg +="<td style='background: #fff; padding: 0;'>";
-			msg +="<span>" + model.Name + "</span>";
+			msg +="<span>" + HttpUtility.HtmlEncode(model.Name) + "</span>";
 			msg +="</td>";
 			msg +="</tr>";
 			msg +="<tr>";
@@ -50,7 +51,7 @@ namespace EVJ.Controllers
 			msg +="<span>Organization</span>";
 			msg +="</td>";
 			msg +="<td style='background: #fff; padding: 0;'>";
-			msg +="<span>"+model.Organization+"</span>";
+			msg +="<span>"+ HttpUtility.HtmlEncode(model.Organization)+"</span>";
 			msg +="</td>";
 			msg +="</tr>";
 
@@ -59,7 +60,7 @@ namespace EVJ.Controllers
 			msg +="<span>Email</span>";
 			msg +="</td>";
 			msg +="<td style='background: #fff; padding: 0;'>";
-			msg +="<span>"+model.Email +"</span>";
+			msg +="<span>"+ HttpUtility.HtmlEncode(model.Email) +"</span>";
 			msg +="</td>";
 			msg +="</tr>";
 		    msg +="<tr>";
@@ -67,7 +68,7 @@ namespace EVJ.Controllers
 			msg +="<span>Comments</span>";
 			msg +="</td>";
 			msg +="<td style='background: #fff; padding: 0;'>";
-			msg +="<span>"+model.Comment +"</span>";
+			msg +="<span>"+HttpUtility.HtmlEncode(model.Comment) +"</span>"; 
 			msg +="</td>";
 			msg +="</tr>";
 
